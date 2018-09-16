@@ -1,7 +1,5 @@
 package com.msointerceptor.controller;
 
-import static org.mockito.Mockito.RETURNS_MOCKS;
-
 import java.util.ArrayList;
 import java.util.List;
 
