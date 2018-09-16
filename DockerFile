@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/mso-dbservivce.jar mso-dbservivce.jar
+EXPOSE 8300
+ENTRYPOINT ["java", "-jar", "mso-dbservivce.jar"]
